@@ -11,5 +11,5 @@ from webdriver_manager.microsoft import IEDriverManager
 
 driver = webdriver.Ie(service=Service(IEDriverManager().install()))
 
-driver.get("http://www.goodstartbook.com")
+driver.get("http://www.google.com")
 driver.quit()
